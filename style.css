@@ -1,5 +1,7 @@
 body {
-  background: #60abf8;
+  background-color: #4d4db8;
+  background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   display: grid;
 }
 
@@ -15,23 +17,30 @@ body {
 }
 
 .me {
-    display: grid;
-    margin: 2px;
-    padding: 2px;
-    border-radius: 4px;
-    margin-right: auto;
-    margin-left: auto;
+  display: grid;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .box {
-  margin: 1px;
+  margin: 0px;
   padding: 25px;
   border-radius: 30px;
   text-align: center;
   justify-content: center;
 }
 
-.skill {
-  margin-right: auto;
+ul {
+  display: inline-block;
+}
+
+.headerS {
+  text-align: center;
+  border: 50px;
+  margin-top: 40px;
+  padding-bottom: 10px;
 }
 
 .Article {
@@ -40,13 +49,17 @@ body {
 .square {
   text-align: center;
   font-size: 1.2rem;
+  margin: 0px;
 }
+
 .sidebar {
   margin: 5px;
   padding: 5px;
   border-radius: 1px;
+  font-size: 1.6rem;
   text-align: center;
   margin-left: auto;
+  font-weight: 900;
 }
 
 .box > img {
@@ -332,3 +345,4 @@ body {
     width: 100%;
   }
 }
+
