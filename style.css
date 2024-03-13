@@ -1,35 +1,51 @@
 body {
   background: #60abf8;
+  display: grid;
 }
 
 .main-nav {
-  display: flex;
   list-style: none;
 }
 
 .container {
   box-sizing: border-box;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
+.me {
+    display: grid;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 4px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .box {
-  margin: 5px;
-  padding: 5px;
-  border-radius: 8px;
+  margin: 1px;
+  padding: 25px;
+  border-radius: 30px;
   text-align: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
-.box-1 {
-  display: inline-block;
-  margin: 1px;
-  padding: 1px;
-  border-radius: 1px;
+
+.skill {
+  margin: 2px;
+  padding: 2px;
+  border-radius: 4px;
   text-align: center;
   margin-right: auto;
 }
 
+.Article {
+  text-align: center;
+}
+.square {
+  text-align: center;
+  font-size: 1.2rem;
+}
 .sidebar {
   margin: 5px;
   padding: 5px;
@@ -39,13 +55,16 @@ body {
 }
 
 .box > img {
-  width: 50%;
-  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  align-items: center;
 }
 
 .zone {
   color: black;
-  font-size: 3em;
+  font-size: 1rem;
   text-align: left;
 }
 
@@ -126,8 +145,6 @@ body {
  *  Red Background
  **********************************************************************/
 .red {
-    text-align: center;
-    font-size: large;
   background: #ff3019; /* Old browsers */
   background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6+ */
   background: -webkit-gradient(
@@ -137,19 +154,16 @@ body {
     color-stop(0%, #ff3019),
     color-stop(100%, #cf0404)
   ); /* Chrome,Safari4+ */
-  text-align: center;
   background: -webkit-linear-gradient(
     top,
     #ff3019 0%,
     #cf0404 100%
   ); /* Chrome10+,Safari5.1+ */
-  text-align: center;
   background: -o-linear-gradient(
     top,
     #ff3019 0%,
     #cf0404 100%
   ); /* Opera 11.10+ */
-  text-align: center;
   background: -ms-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* IE10+ */
   background: linear-gradient(top, #ff3019 0%, #cf0404 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
@@ -315,9 +329,11 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=1 ); /* IE6-9 */
 }
 
-@media only screen and (max-width: 600px) {
-  .main-nav {
+@media screen and (max-width: 600px) {
+  .main-nav,
+  .container {
     font-size: 0.5em;
     padding: 0;
+    width: 100%;
   }
 }
