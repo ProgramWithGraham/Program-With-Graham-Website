@@ -1,10 +1,10 @@
+body {
+  background: #60abf8;
+}
+
 .main-nav {
   display: flex;
   list-style: none;
-}
-
-body {
-  background: #60abf8;
 }
 
 .container {
@@ -23,7 +23,6 @@ body {
 }
 .box-1 {
   display: inline-block;
-
   margin: 1px;
   padding: 1px;
   border-radius: 1px;
@@ -39,22 +38,15 @@ body {
   margin-left: auto;
 }
 
-.grid-wrapper {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-}
-
 .box > img {
   width: 50%;
   height: 50%;
 }
 
 .zone {
-  color: #fff;
-  font-size: 2em;
-  border-radius: 4px;
-  border: 1px solid #bbb;
+  color: black;
+  font-size: 3em;
+  text-align: left;
 }
 
 .zone:hover {
@@ -134,6 +126,8 @@ body {
  *  Red Background
  **********************************************************************/
 .red {
+    text-align: center;
+    font-size: large;
   background: #ff3019; /* Old browsers */
   background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6+ */
   background: -webkit-gradient(
@@ -143,16 +137,19 @@ body {
     color-stop(0%, #ff3019),
     color-stop(100%, #cf0404)
   ); /* Chrome,Safari4+ */
+  text-align: center;
   background: -webkit-linear-gradient(
     top,
     #ff3019 0%,
     #cf0404 100%
   ); /* Chrome10+,Safari5.1+ */
+  text-align: center;
   background: -o-linear-gradient(
     top,
     #ff3019 0%,
     #cf0404 100%
   ); /* Opera 11.10+ */
+  text-align: center;
   background: -ms-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* IE10+ */
   background: linear-gradient(top, #ff3019 0%, #cf0404 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
@@ -318,8 +315,9 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=1 ); /* IE6-9 */
 }
 
-/* @media (max-width: 500px) {
-  .container {
-    grid-template-areas: "headline","me,"sidebar","project";
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    font-size: 0.5em;
+    padding: 0;
   }
-} */
+}
