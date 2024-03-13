@@ -28,14 +28,9 @@ body {
   border-radius: 30px;
   text-align: center;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .skill {
-  margin: 2px;
-  padding: 2px;
-  border-radius: 4px;
-  text-align: center;
   margin-right: auto;
 }
 
