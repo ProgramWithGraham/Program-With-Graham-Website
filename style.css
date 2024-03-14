@@ -19,6 +19,9 @@ body {
 font-size: 1.5rem;
 }
 
+.bio{
+  font-size: 5rem;
+}
 .me {
   display: grid;
   margin: 2px;
