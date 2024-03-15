@@ -15,12 +15,13 @@ body {
   align-items: center;
 }
 
-.skill{
-font-size: 1.5rem;
+.skill {
+  font-size: 1.5rem;
 }
 
-.bio{
-  font-size: 5rem;
+.bio {
+  font-size: 2rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 .me {
   display: grid;
@@ -51,12 +52,17 @@ ul {
 
 .article {
   text-align: center;
-  font-size: 1.7rem;;
+  font-size: 1.7rem;
+}
+
+.artitle {
+  text-decoration: underline;
 }
 .square {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 0px;
+  text-decoration:solid
 }
 
 .sidebar {
@@ -79,7 +85,7 @@ ul {
 
 .zone {
   color: black;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: left;
 }
 
@@ -91,7 +97,7 @@ ul {
   -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
   box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
-    insset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
 }
 
 .button {
