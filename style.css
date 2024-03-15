@@ -17,6 +17,7 @@ body {
 
 .skill {
   font-size: 1.5rem;
+  padding-bottom: 1px;
 }
 
 .bio {
@@ -83,6 +84,11 @@ ul {
   align-items: center;
 }
 
+.footer{
+  text-align: center;
+  padding: 11px;
+
+}
 .zone {
   color: black;
   font-size: 1.5rem;
