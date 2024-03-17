@@ -4,7 +4,7 @@ body {
   display: grid;
 }
 
-.slideshow {
+.slide {
   width: 80%;
   height: 80vh;
   background: rgb(205, 196, 255);
@@ -14,11 +14,11 @@ body {
   padding: 0 2rem;
 }
 
-.slideshow-link {
+.slideshow {
   width: 20%;
 }
 
-.slideshow-link > img {
+.slideshow> img {
   width: 100%;
 }
 
