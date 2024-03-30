@@ -14,30 +14,30 @@
             <a href="#me" class="button green">About Me</a
             ><a href="#skills" class="button purple">Skills</a
             ><a href="#my-projects" class="button red">My Projects</a>
-            <div id="fun-facts" class="blue facts">Random fun facts</div>
+            <button class="button yellow light facts">
+              Click for random fun facts
+            </button>
           </li>
         </ul>
       </nav>
       <header class="headline box"><h1>Adrian Graham</h1></header>
-      <section class="box" id="me">
+      <section class="box">
         <h2>About Me</h2>
-        <div class="slides">
-          <!-- <a href="" class="slideshow">
-            <img src="img/Me.jpg" />
-          </a>
-          <a href="" class="slideshow">
-            <img src="img/Cabinets.jpg" />
-          </a>
-          <a href="" class="slideshow">
-            <img src="img/desk.jpg" />
-          </a>
-          <a href="" class="slideshow">
-            <img src="img/Book.jpg" />
-          </a> -->
+        <div id="carousel">
+          <figure id="spinner">
+            <img src="img/Me.jpg" alt />
+            <img src="img/Book.jpg" alt />
+            <img src="img/Cabinets.jpg" alt />
+            <img src="img/desk.jpg" alt />
+          </figure>
         </div>
-        <div class="zone">
-          <img class="me" src="./img/Me.jpg" width="200" height="250" />
-        </div>
+        <span style="float: left" class="ss-icon" onclick="galleryspin('-')"
+          >&lt;</span
+        >
+        <span style="float: right" class="ss-icon" onclick="galleryspin('')"
+          >&gt;</span
+        >
+        <div class="zone"></div>
         <p class="bio">
           Hello, I have over a decades worth of background in logistics and
           customer service. I am working towards changing my career path with
@@ -60,8 +60,7 @@
               >
             </li>
             <li>
-              <a
-                href="https://www.linkedin.com/in/adrian-graham-b9750419/"
+              <a href="https://www.linkedin.com/in/adrian-graham-b9750419/"
                 >Linkedln</a
               >
             </li>
@@ -141,5 +140,6 @@
       Trademark and Copyright by Adrian Graham &copy; 2024
     </footer>
     <script src="Facts.js"></script>
+    <script src="Carousel.js"></script>
   </body>
 </html>
