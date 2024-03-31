@@ -1,4 +1,4 @@
-document.getElementsByTagName("button")[0].onclick = function () {
+document.getElementsByTagName("button")[1].onclick = function () {
   let i = 0;
 
   while (i < 3) {
@@ -33,11 +33,14 @@ document.getElementsByTagName("button")[0].onclick = function () {
 };
 
 function toggleMenu() {
-  const x = document.getElementById("nav");
-  if (x.className === "nav") {
-    x.className += " responsive";
+  const i = document.getElementById("menu-box");
+  const n = document.getElementById("menu-lightbox");
+  i.classList.toggle("change");
+
+  if (n.style.display === "block") {
+    n.style.display = "none";
   } else {
-    x.className = "nav";
+    n.style.display = "block";
   }
 }
 

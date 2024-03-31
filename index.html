@@ -8,19 +8,21 @@
   </head>
   <body>
     <nav class="zone">
-      <ul class="main-nav">
-        <li>
-          <div class="nav" id="nav">
-            <a href="#menu" class="menu" onclick="toggleMenu()">Menu</a>
-            <a href="#me" class="button green">About Me</a
-            ><a href="#skills" class="button purple">Skills</a
-            ><a href="#my-projects" class="button red">My Projects</a>
-            <button class="button yellow light facts">
-              Click for random fun facts
-            </button>
-          </div>
-        </li>
-      </ul>
+      <button id="menu-box" class="menu" onclick="toggleMenu();">
+        <ul class="menu">
+          Menu
+        </ul>
+      </button>
+      <div class="nav" id="menu-lightbox">
+        <ul class="menu">
+          <a href="#me" class="button green">About Me</a
+          ><a href="#skills" class="button purple">Skills</a
+          ><a href="#my-projects" class="button red">My Projects</a>
+          <button class="button yellow light facts">
+            Click for random fun facts
+          </button>
+        </ul>
+      </div>
     </nav>
     <header class="headline box"><h1>Adrian Graham</h1></header>
     <section class="box">
