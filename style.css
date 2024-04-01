@@ -127,16 +127,17 @@ ul {
 }
 .square {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   margin: 0px;
   text-decoration: solid;
 }
 
 .sidebar {
+  display: block;
   margin: 5px;
   padding: 5px;
   border-radius: 1px;
-  font-size: 1.6rem;
+  font-size: 2.8rem;
   text-align: center;
   margin-left: auto;
   font-weight: 900;
@@ -153,6 +154,7 @@ ul {
 .footer {
   text-align: center;
   padding: 11px;
+  font-size: 1.8em;
 }
 
 .zone {
