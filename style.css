@@ -4,6 +4,14 @@ body {
   display: grid;
 }
 
+.name {
+  font-size: 2em;
+}
+
+#me {
+  font-size: 2.5rem;
+}
+
 .menu {
   cursor: pointer;
 }
@@ -76,6 +84,7 @@ body {
   font-size: 2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .me {
   display: grid;
   margin: 2px;
@@ -84,6 +93,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
 .box {
   padding: 15px;
   border-radius: 30px;
@@ -108,7 +118,7 @@ ul {
   font-size: 1.7rem;
 }
 
-.artitle {
+.project {
   text-decoration: underline;
 }
 .square {
@@ -140,6 +150,7 @@ ul {
   text-align: center;
   padding: 11px;
 }
+
 .zone {
   color: black;
   font-size: 1.5rem;
@@ -158,7 +169,7 @@ ul {
 }
 
 .button {
-  height: 2.0em;
+  height: 2em;
   padding: 10px 40px;
   margin: 40px 50px;
   cursor: pointer;
@@ -194,12 +205,18 @@ ul {
 img {
   vertical-align: middle;
 }
-/* Slideshow container */
+
 .slideshow-container {
   max-width: 35%;
   position: relative;
   margin: auto;
 }
+
+/* my photos above about me */
+.slider {
+  border-radius: 40px;
+}
+
 /* Next & previous buttons */
 .ss-icon {
   cursor: pointer;
@@ -222,7 +239,7 @@ img {
 /* Caption text */
 .text {
   color: #0a0a0a;
-  font-size: 45px;
+  font-size: 35px;
   padding: 8px 12px;
   bottom: 8px;
   width: 200%;

@@ -24,32 +24,35 @@
         </ul>
       </div>
     </nav>
-    <header class="headline box"><h1>Adrian Graham</h1></header>
+    <header class="name box"><h1>Adrian Graham</h1></header>
     <section class="box">
-      <h2>About Me</h2>
       <div class="slideshow-container">
-        <div class="mySlides fade">
-          <img src="img/Me.jpg" style="width: 100%" />
+        <div class="slides fade">
+          <img class="slider" src="img/Me.jpg" style="width: 100%" />
           <div class="text">This is me!</div>
         </div>
-        <div class="mySlides fade">
-          <img src="img/Book.jpg" style="width: 90%" />
+        <div class="slides fade">
+          <img class="slider" src="img/Book.jpg" style="width: 90%" />
           <div class="text">My published book</div>
         </div>
-        <div class="mySlides fade">
-          <img src="img/Cabinets.jpg" style="width: 100%" />
+        <div class="slides fade">
+          <img class="slider" src="img/Cabinets.jpg" style="width: 100%" />
           <div class="text">first major wood project</div>
         </div>
-        <div class="mySlides fade">
-          <img src="img/desk.jpg" style="width: 100%" />
+        <div class="slides fade">
+          <img class="slider" src="img/desk.jpg" style="width: 100%" />
           <div class="text">Second major wood project</div>
         </div>
-        <div class="mySlides fade">
-          <img src="img/DonutClicker.png" style="width: 150%" />
+        <div class="slides fade">
+          <img class="slider" src="img/DonutClicker.png" style="width: 150%" />
           <div class="text">Donut clicker game</div>
         </div>
-        <div class="mySlides fade">
-          <img src="img/BookReadCalculator.png" style="width: 100%" />
+        <div class="slides fade">
+          <img
+            class="slider"
+            src="img/BookReadCalculator.png"
+            style="width: 100%"
+          />
           <div class="text">Book reading day calculator</div>
         </div>
         <span style="float: left" class="ss-icon" onclick="changeSlides(1)"
@@ -60,6 +63,7 @@
         >
       </div>
       <div class="zone"></div>
+      <h2 id="me">About Me</h2>
       <p class="bio">
         Hello, I have over a decades worth of background in logistics and
         customer service. I am changing my career path, with the skills I
@@ -115,7 +119,7 @@
     <section class="article" id="my-projects">
       <h2>My Projects</h2>
       <article class="article">
-        <h3 class="artitle">Virtual Pet</h3>
+        <h3 class="project">Virtual Pet</h3>
         <div class="box zone grey">
           <img src="./img/VirtualPet.png" /> Java based program where you have a
           digital pet that must be taken care of. You are tasked with maintain
@@ -127,7 +131,7 @@
         <p class="square red">Skills used: Java</p>
       </article>
       <article class="article">
-        <h3 class="artitle">Virtual Pet Shelter</h3>
+        <h3 class="project">Virtual Pet Shelter</h3>
         <div class="box zone grey">
           <img src="./img/PetShelter.png" /> Virtual pet has been upgraded to
           include a shelter so that you can house and handle more than one pet
@@ -140,7 +144,7 @@
         <p class="square red">Skills used: Java</p>
       </article>
       <article class="article">
-        <h3 class="artitle">Pets Amok</h3>
+        <h3 class="project">Pets Amok</h3>
         <div class="box zone grey">
           <img src="./img/PetsAmok.png" /> The next big phase of Virtual Pet
           Shelter. Pets Amok!! There are now more specific types of pets like

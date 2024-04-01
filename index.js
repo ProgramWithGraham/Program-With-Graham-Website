@@ -51,7 +51,7 @@ function changeSlides(n) {
 }
 function showSlides(n) {
   let i;
-  let slides = document.getElementsByClassName("mySlides");
+  let slides = document.getElementsByClassName("slides");
   let icons = document.getElementsByClassName("ss-icon");
   if (n > slides.length) {
     slideIndex = 1;
