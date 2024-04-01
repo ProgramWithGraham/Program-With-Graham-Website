@@ -14,14 +14,18 @@ body {
 
 .menu {
   cursor: pointer;
+  text-align: left;
+  font-size: 3.3rem;
+  padding-bottom: 60px;
+  padding-left: 15px;
+  margin: 0;
 }
 
 #menu-box {
-  width: 150px;
-  height: 50px;
+  width: 90px;
+  height: 1px;
   background: rgb(175, 16, 16);
   float: left;
-  z-index: 100;
   margin: 20px;
   cursor: pointer;
 }
