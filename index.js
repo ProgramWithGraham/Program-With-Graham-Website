@@ -49,6 +49,7 @@ showSlides(slideIndex);
 function changeSlides(n) {
   showSlides((slideIndex += n));
 }
+
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("slides");
