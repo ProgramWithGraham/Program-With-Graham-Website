@@ -4,16 +4,28 @@ body {
   display: grid;
 }
 
+.name {
+  font-size: 2em;
+}
+
+#me {
+  font-size: 2.5rem;
+}
+
 .menu {
   cursor: pointer;
+  text-align: left;
+  font-size: 3.3rem;
+  padding-bottom: 60px;
+  padding-left: 15px;
+  margin: 0;
 }
 
 #menu-box {
-  width: 150px;
-  height: 50px;
+  width: 90px;
+  height: 1px;
   background: rgb(175, 16, 16);
   float: left;
-  z-index: 100;
   margin: 20px;
   cursor: pointer;
 }
@@ -76,6 +88,7 @@ body {
   font-size: 2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .me {
   display: grid;
   margin: 2px;
@@ -84,6 +97,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
 .box {
   padding: 15px;
   border-radius: 30px;
@@ -108,21 +122,22 @@ ul {
   font-size: 1.7rem;
 }
 
-.artitle {
+.project {
   text-decoration: underline;
 }
 .square {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   margin: 0px;
   text-decoration: solid;
 }
 
 .sidebar {
+  display: block;
   margin: 5px;
   padding: 5px;
   border-radius: 1px;
-  font-size: 1.6rem;
+  font-size: 2.8rem;
   text-align: center;
   margin-left: auto;
   font-weight: 900;
@@ -139,7 +154,9 @@ ul {
 .footer {
   text-align: center;
   padding: 11px;
+  font-size: 1.8em;
 }
+
 .zone {
   color: black;
   font-size: 1.5rem;
@@ -158,7 +175,7 @@ ul {
 }
 
 .button {
-  height: 2.0em;
+  height: 2em;
   padding: 10px 40px;
   margin: 40px 50px;
   cursor: pointer;
@@ -194,12 +211,18 @@ ul {
 img {
   vertical-align: middle;
 }
-/* Slideshow container */
+
 .slideshow-container {
   max-width: 35%;
   position: relative;
   margin: auto;
 }
+
+/* my photos above about me */
+.slider {
+  border-radius: 40px;
+}
+
 /* Next & previous buttons */
 .ss-icon {
   cursor: pointer;
@@ -222,7 +245,7 @@ img {
 /* Caption text */
 .text {
   color: #0a0a0a;
-  font-size: 45px;
+  font-size: 35px;
   padding: 8px 12px;
   bottom: 8px;
   width: 200%;

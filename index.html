@@ -7,49 +7,52 @@
     <title>Adrian Graham Portfolio</title>
   </head>
   <body>
+    <button id="menu-box" class="menu" onclick="toggleMenu();">
+      <ul class="menu">
+        ≡
+      </ul>
+    </button>
     <nav class="zone">
-      <button id="menu-box" class="menu" onclick="toggleMenu();">
-        <ul class="menu">
-          Menu
-        </ul>
-      </button>
-      <div class="nav" id="menu-lightbox">
-        <ul class="menu">
-          <a href="#me" class="button green">About Me</a
-          ><a href="#skills" class="button purple">Skills</a
-          ><a href="#my-projects" class="button red">My Projects</a>
+      <div class="nav" id="menu-lightbox" style="display: none">
+        <ul>
+          <a href="./about.html" class="button green">About Me</a
+          ><a href="./skills.html" class="button purple">Skills</a
+          ><a href="./myProjects.html" class="button red">My Projects</a>
           <button class="button yellow light facts">
             Click for random fun facts
           </button>
         </ul>
       </div>
     </nav>
-    <header class="headline box"><h1>Adrian Graham</h1></header>
+    <header class="name box"><h1>Adrian Graham</h1></header>
     <section class="box">
-      <h2>About Me</h2>
       <div class="slideshow-container">
-        <div class="mySlides fade">
-          <img src="img/Me.jpg" style="width: 100%" />
+        <div class="slides fade">
+          <img class="slider" src="img/Me.jpg" style="width: 100%" />
           <div class="text">This is me!</div>
         </div>
-        <div class="mySlides fade">
-          <img src="img/Book.jpg" style="width: 90%" />
+        <div class="slides fade">
+          <img class="slider" src="img/Book.jpg" style="width: 90%" />
           <div class="text">My published book</div>
         </div>
-        <div class="mySlides fade">
-          <img src="img/Cabinets.jpg" style="width: 100%" />
+        <div class="slides fade">
+          <img class="slider" src="img/Cabinets.jpg" style="width: 100%" />
           <div class="text">first major wood project</div>
         </div>
-        <div class="mySlides fade">
-          <img src="img/desk.jpg" style="width: 100%" />
+        <div class="slides fade">
+          <img class="slider" src="img/desk.jpg" style="width: 100%" />
           <div class="text">Second major wood project</div>
         </div>
-        <div class="mySlides fade">
-          <img src="img/DonutClicker.png" style="width: 150%" />
+        <div class="slides fade">
+          <img class="slider" src="img/DonutClicker.png" style="width: 150%" />
           <div class="text">Donut clicker game</div>
         </div>
-        <div class="mySlides fade">
-          <img src="img/BookReadCalculator.png" style="width: 100%" />
+        <div class="slides fade">
+          <img
+            class="slider"
+            src="img/BookReadCalculator.png"
+            style="width: 100%"
+          />
           <div class="text">Book reading day calculator</div>
         </div>
         <span style="float: left" class="ss-icon" onclick="changeSlides(1)"
@@ -59,103 +62,24 @@
           >&gt;</span
         >
       </div>
-      <div class="zone"></div>
-      <p class="bio">
-        Hello, I have over a decades worth of background in logistics and
-        customer service. I am working towards changing my career path with the
-        skills I learned from WeCanCodeIt towards being a Software developer.
-        Learning to utilize my strong attention to details and my problem
-        solving skills through different formats of coding and their associated
-        programs. In my free time I enjoy building furniture from scratch in my
-        garage for my home and for my friends, maintaining and updating my home
-        with different projects, video games, and collecting memorabilia.
-      </p>
-      <aside class="sidebar">
-        <h2>Contacts</h2>
-        <ul>
-          <li><a href="mailto:gaps512@gmail.com">Email</a></li>
-          <li>
-            <a
-              href="https://github.com/ProgramWithGraham/ProgramWithGraham.github.io"
-              >Github</a
-            >
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/adrian-graham-b9750419/"
-              >Linkedln</a
-            >
-          </li>
-        </ul>
-      </aside>
-      <div class="box blue" id="skills">
-        <h2 class="header-s">Skills</h2>
-        <div class="skill box blue">
-          <ul>
-            <li>OOP</li>
-            <li>TDD</li>
-            <li>Java</li>
-            <li>JavaScript</li>
-            <li>CSS</li>
-            <li>CSS Grid</li>
-            <li>CSS Flexbox</li>
-            <li>VS Code</li>
-          </ul>
-          <ul>
-            <li>Spring Boot</li>
-            <li>MVC</li>
-            <li>API</li>
-            <li>Microsoft Word</li>
-            <li>HTML</li>
-            <li>Microsoft Excel</li>
-            <li>Google Sheet</li>
-            <li>Github</li>
-          </ul>
-        </div>
-      </div>
     </section>
-    <section class="article" id="my-projects">
-      <h2>My Projects</h2>
-      <article class="article">
-        <h3 class="artitle">Virtual Pet</h3>
-        <div class="box zone grey">
-          <img src="./img/VirtualPet.png" /> Java based program where you have a
-          digital pet that must be taken care of. You are tasked with maintain
-          your pets level of Hunger,Thirst, and boredom. Each option taken (
-          except for getting pet stats and ending the program) will have
-          positive and negative affects on your pets different levels.
-        </div>
-        <a class="grey zone" href="https://www.google.com">Google</a>
-        <p class="square red">Skills used: Java</p>
-      </article>
-      <article class="article">
-        <h3 class="artitle">Virtual Pet Shelter</h3>
-        <div class="box zone grey">
-          <img src="./img/PetShelter.png" /> Virtual pet has been upgraded to
-          include a shelter so that you can house and handle more than one pet
-          at a time. You are tasked with maintain levels of Hunger,Thirst, and
-          boredom for all pets in the shelter. There are now options to have
-          your pets adopted (removed from the shelter), add new pets, and to
-          play with a specific pet of your choice.
-        </div>
-        <a class="zone grey" href="https://www.google.com">Google</a>
-        <p class="square red">Skills used: Java</p>
-      </article>
-      <article class="article">
-        <h3 class="artitle">Pets Amok</h3>
-        <div class="box zone grey">
-          <img src="./img/PetsAmok.png" /> The next big phase of Virtual Pet
-          Shelter. Pets Amok!! There are now more specific types of pets like
-          Organic and Robo. Cats have been thrown into the mix as well. Not only
-          do you have to pay attention to Hunger,Thirst and Boredom levels for
-          each pet, now there new attributes added for each different type of
-          pet. BE-CAREFUL, to not let your levels go to low otherwise your pet
-          will lose happiness and even health. Can you keep up? Do you have what
-          it takes to manage so many different pets?
-        </div>
-        <a class="zone grey" href="https://www.google.com">Google</a>
-        <p class="square red">Skills used: Java</p>
-      </article>
-    </section>
+    <aside>
+      <h2 class="sidebar">Contacts</h2>
+      <ul class="sidebar">
+        <li><a href="mailto:gaps512@gmail.com">Email</a></li>
+        <li>
+          <a
+            href="https://github.com/ProgramWithGraham/ProgramWithGraham.github.io"
+            >Github</a
+          >
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/adrian-graham-b9750419/"
+            >Linkedln</a
+          >
+        </li>
+      </ul>
+    </aside>
     <footer class="footer" id="toes">
       Created by Adrian Graham &copy; 2024
     </footer>
